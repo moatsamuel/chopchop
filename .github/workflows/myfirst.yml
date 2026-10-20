@@ -3,7 +3,7 @@ name: testing testing workflow
 # to indicate and event we use on: 
 on:
     push: 
-        branches: ["master"]
+        branches: ["main"]
 jobs:
     testing-testing:
         runs-on: ubuntu-latest
